@@ -31,9 +31,7 @@ class _EmployeeNotifierFutureScreenState
 
     final isLoading = context
         .select<EmployeeChangeNotifier, bool>((notifier) => notifier.isLoading);
-    // final employees =
-    //     context.select<EmployeeChangeNotifier, List<EmployeeData>>(
-    //         (notifier) => notifier.employeeListFuture);
+
     return Scaffold(
         appBar: AppBar(elevation: 20,
           title: Text('Employee Future',

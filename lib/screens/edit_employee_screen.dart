@@ -306,7 +306,7 @@ class _EditEmployeeScreenState extends State<EditEmployeeScreen> {
     _lastNameController.text = _employeeData.lastName;
     _dateOfBirthController.text = _employeeData.birthDate.toIso8601String();
   }
-
+//Todo delete operation does not work
   void deleteEmployee() {
     context.read<EmployeeChangeNotifier>().deleteEmployee(widget.id);
 

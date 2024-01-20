@@ -1,5 +1,5 @@
 import 'package:drift_db/notifier/employee_change_notifier.dart';
-import 'package:drift_db/notifier/employee_Notifier_Stream.dart';
+import 'package:drift_db/notifier/employee_notifier_stream.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
